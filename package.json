@@ -1,0 +1,23 @@
+{
+  "name": "platzi-dom",
+  "version": "0.1.0",
+  "description": "Curso de Manipulacion del DOM",
+  "author": "@jonalvarezz",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "workshop-fetch"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "husky": "^4.3.0",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^3.1.0",
+    "snowpack": "^2.17.1",
+    "tailwindcss": "^1.9.6"
+  }
+}
