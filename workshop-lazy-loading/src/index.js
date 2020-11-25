@@ -7,9 +7,15 @@ allImages.forEach(registerImage);
 
 // Agregar nuevas imagenes
 const imageContainer = document.querySelector("#images");
-const button = document.querySelector("button");
+const button = document.querySelector("button[type='submit']");
 button.addEventListener("click", () => {
   const [node, image] = createImageNodes();
   registerImage(image);
   imageContainer.append(node);
+});
+
+// Limpiar
+const clean = document.querySelector("button[type='reset']");
+clean.addEventListener("click", () => {
+  imageContainer.innerHTML = "";
 });
