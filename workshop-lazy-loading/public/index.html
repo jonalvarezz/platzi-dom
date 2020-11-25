@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Workshop 2 del curso Manipulación del DOM de Platzi en donde se crea un vanilla JavaScript plugin para hacer lazy load de imagenes"
+    />
+    <!--
+      Snowpack will replace %PUBLIC_URL% with the value you have for `homepage` in `package.json`.
+      Make sure to update it with your GitHub Page URL. https://<your-username>.github.io/<your-repo-name>
+
+      More about config options:
+      - https://www.snowpack.dev/#config-files
+    -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="%PUBLIC_URL%/_dist_/index.css"
+    />
+    <title>Workshop 2: Lazy Loading | Curso Manipulación DOM | Platzi</title>
+  </head>
+  <body>
+    <div class="py-10 px-4 sm:px-6 lg:px-8">
+      <div class="text-center">
+        <p
+          class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase"
+        >
+          Platzi Manipulación DOM
+        </p>
+        <h3
+          class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
+        >
+          Lazy loading
+        </h3>
+        <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
+          vanilla JavaScript plugin to lazy load images
+        </p>
+      </div>
+    </div>
+    <div class="mt-10">
+      <div class="p-4">
+        <img
+          class="mx-auto rounded-md bg-gray-300"
+          width="320"
+          style="object-fit: cover"
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjMyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+          data-src="https://randomfox.ca/images/1.jpg"
+          alt=""
+        />
+      </div>
+      <div class="p-4">
+        <img
+          class="mx-auto rounded-md bg-gray-300"
+          width="320"
+          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjMyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
+          data-src="https://randomfox.ca/images/2.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <!-- Add more scripts here -->
+    <script type="module" src="%PUBLIC_URL%/_dist_/index.js"></script>
+  </body>
+</html>

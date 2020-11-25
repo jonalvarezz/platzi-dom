@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "workshop-fetch"
+    "workshop-fetch",
+    "workshop-lazy-loading"
   ],
   "husky": {
     "hooks": {
