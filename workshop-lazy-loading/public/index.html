@@ -23,7 +23,7 @@
     <title>Workshop 2: Lazy Loading | Curso Manipulación DOM | Platzi</title>
   </head>
   <body>
-    <div class="pt-10 pb-6 px-4 sm:px-6 lg:px-8">
+    <div class="pt-10 pb-4 px-4 sm:px-6 lg:px-8">
       <div class="text-center">
         <p
           class="text-base leading-6 text-indigo-600 font-semibold tracking-wide uppercase"
@@ -36,15 +36,21 @@
           Lazy loading
         </h3>
         <p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 mx-auto">
-          vanilla JavaScript plugin to lazy load images
+          Plugin en vanilla JavaScript para cargar imágenes con lazy load.
         </p>
+        <p class="mt-4 text-xl">✨✨</p>
+        <p class="mt-4 max-w-xl text-xl leading-7 text-gray-500 mx-auto">
+          Las imágenes agregadas no se descargarán hasta que sean visibles en la
+          pantalla
+        </p>
+        <p class="mt-4 text-xl">✨✨</p>
       </div>
     </div>
-    <div class="text-center">
+    <fieldset class="text-center">
       <p class="p-3">
-        <label class="text-sm text-gray-500">
+        <legend class="text-sm text-gray-500">
           Agrega una nueva imagen al final de la lista
-        </label>
+        </legend>
       </p>
       <button
         type="submit"
@@ -60,27 +66,8 @@
           Limpiar
         </button>
       </p>
-    </div>
-    <div class="mt-4" id="images">
-      <div class="p-4">
-        <img
-          class="mx-auto rounded-md bg-gray-300"
-          width="320"
-          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjMyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-          data-src="https://randomfox.ca/images/1.jpg"
-          alt=""
-        />
-      </div>
-      <div class="p-4">
-        <img
-          class="mx-auto rounded-md bg-gray-300"
-          width="320"
-          src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIwIiBoZWlnaHQ9IjMyMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiLz4="
-          data-src="https://randomfox.ca/images/2.jpg"
-          alt=""
-        />
-      </div>
-    </div>
+    </fieldset>
+    <div class="mt-4" id="images"></div>
 
     <!-- Add more scripts here -->
     <script type="module" src="%PUBLIC_URL%/_dist_/index.js"></script>
