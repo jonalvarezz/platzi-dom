@@ -18,7 +18,7 @@
     "husky": "^4.3.6",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
-    "snowpack": "^2.18.1",
+    "snowpack": "^2.18.4",
     "tailwindcss": "^2.0.2"
   }
 }
