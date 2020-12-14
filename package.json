@@ -19,6 +19,6 @@
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
     "snowpack": "^2.18.1",
-    "tailwindcss": "^2.0.1"
+    "tailwindcss": "^2.0.2"
   }
 }
