@@ -1,5 +1,6 @@
 {
   "name": "workshop-lazy-loading",
+  "version": "0.1.0",
   "scripts": {
     "start": "snowpack dev",
     "build": "snowpack build",
