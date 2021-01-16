@@ -9,6 +9,10 @@
     "workshop-fetch",
     "workshop-lazy-loading"
   ],
+  "scripts": {
+    "start:w1": "yarn --cwd workshop-fetch start",
+    "start:w2": "yarn --cwd workshop-lazy-loading start"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
