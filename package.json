@@ -11,12 +11,8 @@
   ],
   "scripts": {
     "start:w1": "yarn --cwd workshop-fetch start",
-    "start:w2": "yarn --cwd workshop-lazy-loading start"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged"
-    }
+    "start:w2": "yarn --cwd workshop-lazy-loading start",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "husky": "^5.2.0",
