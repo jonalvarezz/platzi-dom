@@ -19,6 +19,13 @@ Workshop 1: Fetch
     cd platzi-dom
     ```
     
+1.  **Instala dependencias.**
+
+    Desde la raiz del repositorio:
+
+    ```sh
+    yarn
+    ```
 
 1.  **Corre este Workshop.**
     
@@ -26,12 +33,6 @@ Workshop 1: Fetch
 
     ```sh
     cd workshop-fetch
-    ```
-    
-    Instala dependencias
-
-    ```sh
-    yarn
     ```
 
     Inicia el proyecto
