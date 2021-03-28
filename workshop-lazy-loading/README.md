@@ -18,7 +18,16 @@ Workshop 2: Lazy loading
     git clone git@github.com:jonalvarezz/platzi-dom.git
     cd platzi-dom
     ```
+
     
+1.  **Instala dependencias.**
+
+    Desde la raiz del repositorio:
+
+    ```sh
+    yarn
+    ```
+
 
 1.  **Corre este Workshop.**
     
@@ -26,12 +35,6 @@ Workshop 2: Lazy loading
 
     ```sh
     cd workshop-lazy-loading
-    ```
-    
-    Instala dependencias
-
-    ```sh
-    yarn
     ```
 
     Inicia el proyecto
