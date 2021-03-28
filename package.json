@@ -12,6 +12,8 @@
   "scripts": {
     "start:w1": "yarn --cwd workshop-fetch start",
     "start:w2": "yarn --cwd workshop-lazy-loading start",
+    "test": "yarn workspaces run test",
+    "build": "yarn workspaces run build",
     "prepare": "husky install"
   },
   "devDependencies": {
