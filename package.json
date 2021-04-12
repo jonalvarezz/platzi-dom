@@ -14,7 +14,8 @@
     "start:w2": "yarn --cwd workshop-lazy-loading start",
     "test": "yarn workspaces run test",
     "build": "yarn workspaces run build",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "pre-commit": "yarn pretty-quick --staged"
   },
   "devDependencies": {
     "husky": "^6.0.0",
