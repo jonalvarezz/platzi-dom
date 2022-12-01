@@ -22,6 +22,6 @@
     "prettier": "2",
     "pretty-quick": "3",
     "snowpack": "3",
-    "tailwindcss": "2"
+    "tailwindcss": "3"
   }
 }
